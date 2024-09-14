@@ -1,4 +1,6 @@
 :root.theme-dark {
+  --main-font: 'Inter-Variable', Helvetica, sans-serif;
+  --accent-font: 'Press Start 2P', fantasy;
   --text-font-weight: 465;
   --subtitle-font-weight: 785;
   --bg-color: #000;
@@ -23,6 +25,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root.theme-auto {
+    --main-font: 'Inter-Variable', Helvetica, sans-serif;
+    --accent-font: 'Press Start 2P', fantasy;
     --text-font-weight: 465;
     --subtitle-font-weight: 785;
     --bg-color: #000;
